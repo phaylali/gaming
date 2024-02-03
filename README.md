@@ -1,4 +1,8 @@
-# Stone: Astro Theme (Modified by Phaylali to include an MD blogging feature)
+# Omniversify Gaming:
+
+We are a blog that shares news, tips and tricks
+
+# Stone: Astro Theme (Modified by Omniversify to include an MD blogging feature)
 
 Stone is a free and open-source Astro theme specially designed for Business, Marketing, SaaS and Startup websites.
 
