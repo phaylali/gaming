@@ -3,3 +3,5 @@
 
 export const SITE_TITLE = 'Gaming Blog, News, Tips & Tricks by Omniversify';
 export const SITE_DESCRIPTION = 'We share news, opinions, tips and tricks related to the gaming world';
+export const SITE_URL = 'https://gaming.omniversify.com/';
+

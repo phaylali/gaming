@@ -1,14 +1,15 @@
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 import compress from 'astro-compress';
+import react from '@astrojs/react';
+import mdx from '@astrojs/mdx';
 
-import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
   experimental: {
-    viewTransitions: true
+    viewTransitions: true,
   },
-  integrations: [tailwind(), compress(), react()],
-  
-  
+  site: 'https://gaming.omniversify.com',
+  //site:'http://localhost:3000/',
+  integrations: [tailwind(), compress(), react(), mdx()],
 });
