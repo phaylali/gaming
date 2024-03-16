@@ -38,12 +38,21 @@ Navigate to your project folder and install its dependencies:
 ```
 npm install
 ```
+or even better
+```
+bun install
+```
 or if you're running linux arch
 ```
 npm install --ignore-scripts=false --foreground-scripts sharp
 ```
 You can use Bun too but there is a problem where the above code doesn't work since Bun doesn't support Sharp yet, but it is expected to be added soon.
 but that problem is only with the installation , you can run this project with Bun faster than NPM.
+
+To install Tina CMS for markdown editing
+```
+npx @tinacms/cli@latest init
+```
 
 ### Start
 
