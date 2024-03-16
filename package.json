@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "tinacms dev -c \"astro dev --port 8080\"",
     "start": "astro dev",
-    "build": "tinacms build -c \"astro dev --port 8080\"",
+    "build2": "tinacms build -c \"astro build --port 8080\"",
+    "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
