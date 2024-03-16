@@ -10,7 +10,9 @@ export default defineConfig({
     viewTransitions: true,
   },
   output: 'static',
-  adapter: vercel(),
+  adapter: vercel({
+    webAnalytics: { enabled: true }
+  }),
   site: 'https://gaming.omniversify.com',
   
   integrations: [tailwind(), compress(), react(),],
