@@ -16,15 +16,6 @@ export default defineConfig({
   site: 'https://gaming.omniversify.com',
   
   integrations: [tailwind(), compress(), react(),],
-  async rewrites(){
-    return [
-      {
-        source:"/admin",
-        destination:"/admin/index.html"
-      }
-    ]
-  },
-  redirects: {
-    "/admin/index.html":"/admin"
-  }
+  
+  
 });
