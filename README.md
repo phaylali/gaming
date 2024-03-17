@@ -31,6 +31,7 @@ Stone is a free and open-source Astro theme specially designed for Business, Mar
 - Text editor (We recommend Visual Studio Code)
 - Node.js 18 or higher.
 
+
 ### Install dependencies
 
 Navigate to your project folder and install its dependencies:
