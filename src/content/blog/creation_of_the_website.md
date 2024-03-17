@@ -9,7 +9,7 @@ rating: 5
 ---
 I started the website using bun 1.0 after few days of its released, using Astro.js , it was a seemless experience, and I was extremely surprised by the google lighthouse complete 100 score, I didn't even think that this was possible, I was happy to be wrong.
 
-#### Cover of the day
+### Cover of the day
 
 Prompt:
 
@@ -28,5 +28,3 @@ Steps: 20, Seed: 2776298602, Sampler: DDIM, CFG scale: 6, Size: 768x512, Parser:
 I need to add night mode to this website and customize the icons and links
 
 I finished watching Baki Hanma son of ogre, now I will move to other series and anime
-
-![]()
