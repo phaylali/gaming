@@ -4,9 +4,10 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "tinacms dev -c \"astro dev --port 8080\"",
-    "start": "astro dev",
+    "start": "tinacms dev -c \"astro dev --port 8080\"",
     "build": "tinacms build -c \"astro build --port 8080\"",
-    "preview": "astro preview",
+    "install": "tinacms install -c \"astro install --port 8080\"",
+    "preview": "tinacms preview -c \"astro preview --port 8080\"",
     "astro": "astro"
   },
   "dependencies": {
