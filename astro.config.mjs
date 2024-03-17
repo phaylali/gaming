@@ -23,5 +23,8 @@ export default defineConfig({
         destination:"/admin/index.html"
       }
     ]
+  },
+  redirects: {
+    "/admin/index.html":"/admin"
   }
 });

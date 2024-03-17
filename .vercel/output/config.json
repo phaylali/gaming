@@ -2,6 +2,13 @@
 	"version": 3,
 	"routes": [
 		{
+			"src": "/admin/index.html",
+			"headers": {
+				"Location": "/admin"
+			},
+			"status": 301
+		},
+		{
 			"src": "^/_astro/(.*)$",
 			"headers": {
 				"cache-control": "public, max-age=31536000, immutable"
