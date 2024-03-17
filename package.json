@@ -3,9 +3,9 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
-    "dev": "astro dev --port 8080",
-    "start": "astro dev",
-    "build": "astro build --port 8080",
+    "dev": "tinacms dev -c \"astro dev --port 8080\"",
+    "build": "tinacms build && astro build",
+    "start": "tinacms build && astro start --port 8080",
     "install": "astro install",
     "preview": "astro preview",
     "astro": "astro"
