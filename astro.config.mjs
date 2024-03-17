@@ -18,4 +18,5 @@ export default defineConfig({
   integrations: [tailwind(), compress(), react(),],
   
   
+  
 });
