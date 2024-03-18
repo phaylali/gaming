@@ -6,9 +6,7 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
-  experimental: {
-    viewTransitions: true,
-  },
+  
  // output: 'static',
  // adapter: vercel({
  //   webAnalytics: { enabled: true }
