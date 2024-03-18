@@ -10,8 +10,8 @@ collections:
       - { label: "Publish Date", name: "pubDate", widget: "datetime" }
       - { label: "Featured Image", name: "heroImage", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
-media_folder: "/images/" # Location where files will be stored in the repo
-public_folder: "/images/" # The src attribute for uploaded media
+media_folder: "public/images/" # Location where files will be stored in the repo
+public_folder: "public/images/" # The src attribute for uploaded media
 backend:
   name: github
   repo: phaylali/gaming
