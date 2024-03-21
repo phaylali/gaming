@@ -29,6 +29,7 @@
     "astro-compress": "^2.2.15",
     "corepack": "^0.26.0",
     "decap-cms-app": "^3.1.4",
+    "decap-cms-backend-github": "^3.1.1",
     "deepmerge-ts": "^5.1.0",
     "dlx": "^0.2.1",
     "markdown-it": "^14.1.0",

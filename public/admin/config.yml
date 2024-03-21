@@ -17,5 +17,5 @@ backend:
   repo: phaylali/gaming
   repository branch: main
   branch: main
-  base_url: https://gaming.omniversify.com
+  base_url: https://gaming.omniversify.com/api/
   
