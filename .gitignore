@@ -25,3 +25,5 @@ pnpm-debug.log*
 
 node_modules
 .env
+
+yarn.lock
