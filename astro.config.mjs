@@ -2,19 +2,15 @@ import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 import compress from 'astro-compress';
 import react from '@astrojs/react';
-//import vercel from '@astrojs/vercel/static';
+import vercel from '@astrojs/vercel/serverless';
 
-// https://astro.build/config
+import decapCmsOauth from "astro-decap-cms-oauth";
+
 export default defineConfig({
-  
- // output: 'static',
- // adapter: vercel({
- //   webAnalytics: { enabled: true }
- // }),
+  output: 'hybrid',
+  adapter: vercel({
+     webAnalytics: { enabled: true }
+   }),
   site: 'https://gaming.omniversify.com',
-  
-  integrations: [tailwind(), compress(), react(),],
-  
-  
-  
+  integrations: [tailwind(), compress(), react(), decapCmsOauth()]
 });

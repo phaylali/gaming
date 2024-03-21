@@ -27,6 +27,7 @@
     "alpinejs": "^3.13.7",
     "astro": "^4.5.8",
     "astro-compress": "^2.2.15",
+    "astro-decap-cms-oauth": "^0.2.9",
     "corepack": "^0.26.0",
     "decap-cms-app": "^3.1.4",
     "decap-cms-backend-github": "^3.1.1",
