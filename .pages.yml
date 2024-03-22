@@ -1,4 +1,4 @@
-media: public/images
+media: images
 content:
   - name: blog
     label: Blog
