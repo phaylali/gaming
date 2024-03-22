@@ -1,7 +1,7 @@
 ---
 title: Watching more jojo stone ocean
 description: Just Another boring tiring day
-pubDate: Sep 13 2023
+pubDate: 2024-03-21
 heroImage: /images/raiden shogun aqua begging meme.webp
 ---
 I couldn't wake up early as I was planning, instead woke up late at 11AM with a headache, been a lot of work but I did speed up the workflow quite a bit.
