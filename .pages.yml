@@ -1,1 +1,21 @@
 media: public/images
+content:
+  - name: blog
+    label: Blog
+    path: src/content/blog
+    type: collection
+    view:
+      fields: [ title, date ]
+      primary: title
+      sort: [ date, title ]
+      default:
+       search: ''
+       sort: title
+       order: desc
+    fields: 
+    - { name: title, label: Title, type: string, required: true}
+    - { name: description, label: Description, type: string, required: true}
+    - { name: pubDate, label: Date, type: date, required: true}
+    - { name: heroImage, label: Body, type: rich-text, required: true}
+    - { name: body, label: Body, type: rich-text, required: true}
+    
