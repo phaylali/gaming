@@ -1,7 +1,7 @@
 ---
-title: Let's the journey begin  
+title: Let's the journey begin
 description: This is the beginning of this website
-pubDate: Sep 11 2023
+pubDate: 2024-03-20
 heroImage: /images/raiden shogun wheeze meme.webp
 ---
 I started the website using bun 1.0 after few days of its released, using Astro.js , it was a seemless experience, and I was extremely surprised by the google lighthouse complete 100 score, I didn't even think that this was possible, I was happy to be wrong.
