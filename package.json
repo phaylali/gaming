@@ -28,6 +28,7 @@
     "astro": "^4.5.8",
     "astro-compress": "^2.2.15",
     "corepack": "^0.26.0",
+    "country-flag-icons": "^1.5.10",
     "deepmerge-ts": "^5.1.0",
     "dlx": "^0.2.1",
     "markdown-it": "^14.1.0",

@@ -1,10 +1,11 @@
+
 # Omniversify Gaming:
 
 We are a blog that shares news, tips and tricks
 
-# Stone: Astro Theme (Modified by Omniversify to include an MD blogging feature)
+## Stone: Astro Theme (Modified by Omniversify to include additional Markdown blogging features)
 
-Stone is a free and open-source Astro theme specially designed for Business, Marketing, SaaS and Startup websites.
+Stone is a free and open-source Astro theme specially designed for Business, Marketing, SaaS and Startup websites. 
 
 ## Key Features:
 
@@ -22,6 +23,8 @@ Stone is a free and open-source Astro theme specially designed for Business, Mar
 - **Remix Icons**
 - Free Updates
 - Supports Blogging using MD and MDX format files
+- Supports Editing Markdown blog posts via PagesCMS 
+- Features a very nice and clean RSS feed
 
 ## Getting Started
 
@@ -37,46 +40,49 @@ Stone is a free and open-source Astro theme specially designed for Business, Mar
 Navigate to your project folder and install its dependencies:
 
 ```
-npm install
+yarn install
 ```
-or even better
+or 
 ```
 bun install
 ```
-or if you're running linux arch
+
+NOTE: bun is not stable on Windows yet, preferably use yarn 4.
+
+or if you're running linux arch and having problems with sharp, try the following:
 ```
 npm install --ignore-scripts=false --foreground-scripts sharp
 ```
 You can use Bun too but there is a problem where the above code doesn't work since Bun doesn't support Sharp yet, but it is expected to be added soon.
 but that problem is only with the installation , you can run this project with Bun faster than NPM.
 
-To install Tina CMS for markdown editing
-```
-npx @tinacms/cli@latest init
-```
+To install Pages CMS for markdown editing, go to the website and set up your account there, feel free to modify the config page to suit your needs
+
+https://app.pagescms.org/
+
 
 ### Start
 
 Once the installation is done, you can now run your app:
 
 ```
-npm run dev
+yarn dev
 ```
-or even better
+or
 ```
-bun astro dev
+bun dev
 ```
 
-This runs the app in development mode. Open http://localhost:3000 to view it in the browser.
+This runs the app in development mode. Open http://localhost:8080 to view it in the browser.
 
 ### Build
 
 ```
-npm run build
+yarn build
 ```
 or 
 ```
-bun astro build
+bun build
 ```
 
 This builds the app for production to the `./dist/` folder.
@@ -88,13 +94,20 @@ Inside the project, you'll see the following folders and files:
 ```
 /
 ├── public/
+│   ├── assets/  (assets like favicons and what the website needs)
+│   ├── fonts/   (add fonts here if you want a different font)
+│   ├── images/  (images that are going to be used by blog posts)
+│   ├── rss/     (autogenerate, no need to modify it)
 ├── src/
 │   ├── components/
 │   ├── content/
 │   ├── layouts/
+│       ├── BlogPost.astro  (standard layout for blog posts)
+│       ├── Layout.astro    (standard layout for pages, a theme basically)
 │   ├── pages/
 │   └── consts.ts
 ├── .prettierrc
+├── .pages.yml              (the config file for PagesCMS)
 ├── astro.config.mjs
 ├── package-lock.json
 ├── package.json
@@ -126,3 +139,5 @@ If you have any questions or suggestions do not hesitate to contact me.
 ## License
 
 This project is licensed under the terms of the MIT license.
+
+[![ReadMeSupportPalestine](https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-project.svg)](https://github.com/Safouene1/support-palestine-banner)
