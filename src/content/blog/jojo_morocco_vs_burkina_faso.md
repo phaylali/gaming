@@ -3,6 +3,10 @@ title: Watching jojo stone ocean and Morocco Vs Burkina Faso
 description: Just A boring tiring day
 pubDate: 2024-03-22
 heroImage: /images/raiden shogun roll safe meme.webp
+tags:
+  - Genshin Impact
+  - Review
+  - Character
 ---
 today was full of work (my full time job), I arrived at home tired and just sat and watch Jojo Stone Ocean anime on Netflix, S05E13 to S05E18, I'm planning to watch more until I finish it, latest episode right now is S05E38, I've been kinda reluctant to watch it because I was too busy but also because I did read the manga way before, in the manga I stopped at the beginning chapters of jojo lands.
 I'm still conflicted over what I should make the omniversify logo look like, but it will come eventually.

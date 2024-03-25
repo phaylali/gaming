@@ -3,6 +3,9 @@ title: Watching more jojo stone ocean
 description: Just Another boring tiring day
 pubDate: 2024-03-21
 heroImage: /images/raiden shogun aqua begging meme.webp
+tags:
+  - Rust
+  - Review
 ---
 I couldn't wake up early as I was planning, instead woke up late at 11AM with a headache, been a lot of work but I did speed up the workflow quite a bit.
 came home and watched jojo S05E18 to S05E25.
