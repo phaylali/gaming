@@ -4,6 +4,7 @@ import '@fontsource/inter/latin-500.css';
 import type { CollectionEntry } from 'astro:content';
 import FormattedDate from '../components/home/FormattedDate.astro';
 import Layout from '../layouts/Layout.astro';
+import Icons from 'unplugin-icons/vite'
 
 type Props = CollectionEntry<'blog'>['data'];
 
@@ -33,7 +34,7 @@ const { title, description, pubDate, updatedDate, heroImage, tags } = Astro.prop
                   {
                     tags.map((tag) => (
                       <button onclick="">
-                        <div class="rounded-3xl border border-primary-900/10 py-1 px-3 mx-1 align-middle dark:border-primary-300/10">
+                        <div class="mx-1 my-1 rounded-3xl border border-primary-900/10 px-3 py-1 align-middle dark:border-primary-300/10">
                           <dd class="text-md font-medium tracking-tight">{tag}</dd>
                         </div>
                       </button>
@@ -57,6 +58,49 @@ const { title, description, pubDate, updatedDate, heroImage, tags } = Astro.prop
           <slot />
         </div>
       </div>
+    </div>
+    <div class="mx-auto max-w-2xl px-4 sm:px-4 lg:max-w-7xl lg:px-8">
+      <div class="flex flex-col gap-10">
+        <div class="flex flex-col items-start gap-4 sm:gap-4">
+          <div class="flex w-full flex-row align-middle">
+            <dl class="flex flex-wrap py-2">
+              
+              <button onclick="">
+                <div class="mx-1 my-1 rounded-2xl border border-primary-900/10 px-5 py-3 align-middle dark:border-primary-300/10">
+                  <dd class="text-md font-medium tracking-tight">F</dd>
+                </div>
+              </button>
+              <button onclick="">
+                <div class="mx-1 my-1 rounded-2xl border border-primary-900/10 px-5 py-3 align-middle dark:border-primary-300/10">
+                  <dd class="text-md font-medium tracking-tight">X</dd>
+                </div>
+              </button>
+              <button onclick="">
+                <div class="mx-1 my-1 rounded-2xl border border-primary-900/10 px-5 py-3 align-middle dark:border-primary-300/10">
+                  <dd class="text-md font-medium tracking-tight">F</dd>
+                </div>
+              </button>
+              <button onclick="">
+                <div class="mx-1 my-1 rounded-2xl border border-primary-900/10 px-5 py-3 align-middle dark:border-primary-300/10">
+                  <dd class="text-md font-medium tracking-tight">X</dd>
+                </div>
+              </button>
+              <button onclick="">
+                <div class="mx-1 my-1 rounded-2xl border border-primary-900/10 px-5 py-3 align-middle dark:border-primary-300/10">
+                  <dd class="text-md font-medium tracking-tight">F</dd>
+                </div>
+              </button>
+              <button onclick="">
+                <div class="mx-1 my-1 rounded-2xl border border-primary-900/10 px-5 py-3 align-middle dark:border-primary-300/10">
+                  <dd class="text-md font-medium tracking-tight">X</dd>
+                </div>
+              </button>
+              
+            </dl>
+          </div>
+        </div>
+      </div>
+      
     </div>
   </section>
 </Layout>
