@@ -5,7 +5,7 @@ import { ViewTransitions } from 'astro:transitions';
 import Footer from '../components/layout/Footer.astro';
 import Header from '../components/layout/Header.astro';
 import  SpeedInsights  from "@vercel/speed-insights/astro";
-import Banner from '../components/Banner.jsx';
+
 interface Props {
   description: string;
   title: string;
@@ -31,7 +31,7 @@ const { description, title } = Astro.props;
   <body
     class="bg-primary-50 text-primary-950 antialiased transition dark:bg-primary-950 dark:text-primary-200"
   >
-  <Banner />
+  
 
     <Header />
     
