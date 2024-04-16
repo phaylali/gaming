@@ -18,7 +18,7 @@ content:
     - { name: title, label: Title, type: string, required: true}
     - { name: description, label: Description, type: string, required: true}
     - { name: pubDate, label: Date, type: date, required: true}
-    - { name: tags, label: Tags, type: string, required: true}
+    - { name: tags, label: Tags, type: string , required: true , list: true}
     - { name: heroImage, label: Cover, type: image, required: true}
     - { name: body, label: Body, type: rich-text, required: true}
     
