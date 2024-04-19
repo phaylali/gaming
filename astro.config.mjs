@@ -2,18 +2,16 @@ import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 import compress from 'astro-compress';
 import react from '@astrojs/react';
-import Icons from 'unplugin-icons/vite'
+import icon from 'astro-icon';
 
 export default defineConfig({
   
   
   site: 'https://gaming.omniversify.com',
-  integrations: [tailwind(), compress(), react()],
+  integrations: [tailwind(), compress(), react(), icon()],
   vite: {
     plugins: [
-      Icons({
-        compiler: 'astro',
-      }),
+      
     ],
   },
 });
