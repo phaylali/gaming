@@ -4,13 +4,14 @@ import '@fontsource/inter/latin-500.css';
 import type { CollectionEntry } from 'astro:content';
 import FormattedDate from '../components/home/FormattedDate.astro';
 import Layout from '../layouts/Layout.astro';
-
+import Comments from '../components/Comments.astro';
 type Props = CollectionEntry<'blog'>['data'];
 import { RiFacebookFill,RiWhatsappFill,RiPinterestFill,RiTwitterXFill,RiLinkedinFill, RiRedditFill,RiMailFill } from "react-icons/ri";
 
 const { title, description, pubDate, updatedDate, heroImage, tags } = Astro.props;
 
 const url = Astro.url;
+
 
 ---
 
@@ -131,7 +132,8 @@ const url = Astro.url;
             </dl>
             
           </div>
-          <div class="giscus"></div>
+          
+          <Comments/>
         </div>
       </div>
       

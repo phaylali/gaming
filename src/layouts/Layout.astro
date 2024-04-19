@@ -4,7 +4,7 @@ import '@fontsource/inter/latin-500.css';
 import { ViewTransitions } from 'astro:transitions';
 import Footer from '../components/layout/Footer.astro';
 import Header from '../components/layout/Header.astro';
-import  SpeedInsights  from "@vercel/speed-insights/astro";
+import SpeedInsights from '@vercel/speed-insights/astro';
 
 interface Props {
   description: string;
@@ -31,10 +31,8 @@ const { description, title } = Astro.props;
   <body
     class="bg-primary-50 text-primary-950 antialiased transition dark:bg-primary-950 dark:text-primary-200"
   >
-  
-
     <Header />
-    
+
     <main>
       <slot />
     </main>
@@ -44,12 +42,12 @@ const { description, title } = Astro.props;
         display: none !important;
       }
     </style>
+
     <script>
       import Alpine from 'alpinejs';
       import collapse from '@alpinejs/collapse';
 
       Alpine.plugin(collapse);
-      
 
       Alpine.store('theme', {
         init() {
@@ -60,6 +58,7 @@ const { description, title } = Astro.props;
             if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
               return true;
             }
+            
             return false;
           })();
         },
@@ -69,12 +68,15 @@ const { description, title } = Astro.props;
         toggle() {
           this.isDark = !this.isDark;
           localStorage.setItem('theme', this.isDark ? 'dark' : 'light');
+           //send a message with the theme to apply
         },
       });
 
       window.Alpine = Alpine;
       Alpine.start();
+
     </script>
+    
     <SpeedInsights />
   </body>
 </html>
