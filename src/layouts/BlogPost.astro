@@ -76,7 +76,7 @@ const url = Astro.url;
                   </div>
                 </button>
               </a>
-              <a href=`https://api.whatsapp.com/send?text=${encodeURIComponent(description)}%20${url}` target="_blank" rel="noopener">
+              <a href=`https://api.whatsapp.com/send?text=${encodeURIComponent(title)}%20${url}` target="_blank" rel="noopener">
                 <button onclick="">
                   <div class="mx-1 my-1 rounded-2xl border border-primary-900/10 px-2 py-2 align-middle dark:border-primary-300/10">
 
@@ -84,7 +84,7 @@ const url = Astro.url;
                   </div>
                 </button>
               </a>
-              <a href= `https://twitter.com/intent/tweet?url=${url}&text=${encodeURIComponent(description)}` target="_blank" rel="noopener">
+              <a href= `https://twitter.com/intent/tweet?url=${url}&text=${encodeURIComponent(title)}` target="_blank" rel="noopener">
                 <button onclick="">
                   <div class="mx-1 my-1 rounded-2xl border border-primary-900/10 px-2 py-2 align-middle dark:border-primary-300/10">
 
@@ -92,7 +92,7 @@ const url = Astro.url;
                   </div>
                 </button>
               </a>
-              <a href=`https://www.pinterest.com/pin/create/button/?url=${url}&description=${encodeURIComponent(description)}` target="_blank" rel="noopener">
+              <a href=`https://www.pinterest.com/pin/create/button/?url=${url}&description=${encodeURIComponent(title)}` target="_blank" rel="noopener">
                 <button onclick="">
                   <div class="mx-1 my-1 rounded-2xl border border-primary-900/10 px-2 py-2 align-middle dark:border-primary-300/10">
 
@@ -100,7 +100,7 @@ const url = Astro.url;
                   </div>
                 </button>
               </a>
-              <a href=`https://www.linkedin.com/sharing/share-offsite/?url=${url}&summary=${encodeURIComponent(description)}` target="_blank" rel="noopener">
+              <a href=`https://www.linkedin.com/sharing/share-offsite/?url=${url}&summary=${encodeURIComponent(title)}` target="_blank" rel="noopener">
                 <button onclick="">
                   <div class="mx-1 my-1 rounded-2xl border border-primary-900/10 px-2 py-2 align-middle dark:border-primary-300/10">
 
@@ -108,7 +108,7 @@ const url = Astro.url;
                   </div>
                 </button>
               </a>
-              <a href=`https://reddit.app.link/?url=${url}&title=${encodeURIComponent(description)}` target="_blank" rel="noopener">
+              <a href=`https://www.reddit.com/submit?url=${url}&title=${title}` target="_blank" rel="noopener">
                 <button onclick="">
                   <div class="mx-1 my-1 rounded-2xl border border-primary-900/10 px-2 py-2 align-middle dark:border-primary-300/10">
 
@@ -118,7 +118,7 @@ const url = Astro.url;
               </a>
 
 
-              <a href=`mailto:?subject=${encodeURIComponent(description)}&body=${url}` target="_blank" rel="noopener">
+              <a href=`mailto:?subject=${encodeURIComponent(title)}&body=${url}` target="_blank" rel="noopener">
                 <button onclick="">
                   <div class="mx-1 my-1 rounded-2xl border border-primary-900/10 px-2 py-2 align-middle dark:border-primary-300/10">
 
