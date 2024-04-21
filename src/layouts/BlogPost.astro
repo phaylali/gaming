@@ -1,6 +1,7 @@
 ---
 import '@fontsource/inter/latin-400.css';
 import '@fontsource/inter/latin-500.css';
+import { Image } from 'astro:assets';
 import type { CollectionEntry } from 'astro:content';
 import FormattedDate from '../components/home/FormattedDate.astro';
 import Layout from '../layouts/Layout.astro';
@@ -49,12 +50,12 @@ const url = Astro.url;
             </div>
           </div>
         </div>
-        <img
-          class="h-auto w-full rounded-3xl"
-          width="768"
-          height="512"
-          src={heroImage}
-          alt="Hero picture"
+        <Image class="h-auto w-full rounded-3xl"
+        width="768"
+        height="512"
+        src={heroImage}
+        alt="Hero picture"
+          
         />
         <div
           class="prose prose-xl prose-stone prose-red max-w-none dark:prose-invert prose-img:rounded-xl"
