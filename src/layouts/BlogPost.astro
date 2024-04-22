@@ -38,11 +38,13 @@ const url = Astro.url;
                 <dl class="flex flex-wrap py-2">
                   {
                     tags.map((tag) => (
+                    <a href=`/tags/${tag}` target="_self" rel="noopener">
                       <button onclick="">
                         <div class="mx-1 my-1 rounded-3xl border border-primary-900/10 px-3 py-1 align-middle dark:border-primary-300/10">
                           <dd class="text-md font-medium tracking-tight">{tag}</dd>
                         </div>
                       </button>
+                    </a>
                     ))
                   }
                 </dl>
