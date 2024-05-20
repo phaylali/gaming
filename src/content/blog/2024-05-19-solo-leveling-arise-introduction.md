@@ -22,15 +22,3 @@ In terms of gameplay, Solo Leveling: Arise incorporates typical gacha features f
 While some fans are excited about the game's release, others have expressed concerns about Netmarble's reputation as a greedy company that focuses on money-grabbing tactics[\[5\]](https://www.reddit.com/r/sololeveling/comments/1asa9h5/solo_leveling_arise_whats_your_thoughts_on_the/). However, it's worth noting that Netmarble's games are generally considered playable, even for free-to-play players[\[5\]](https://www.reddit.com/r/sololeveling/comments/1asa9h5/solo_leveling_arise_whats_your_thoughts_on_the/).
 
 Overall, Solo Leveling: Arise is poised to be a major success, riding on the coattails of the anime adaptation's popularity and the franchise's dedicated fanbase. The game's impressive pre-registration numbers and the timing of its release, shortly after the anime's "Arise" episode, suggest that Netmarble is strategically capitalizing on the hype surrounding the series[\[3\]](https://www.gamesradar.com/solo-leveling-season-2-trailer-announcement/)[\[5\]](https://www.reddit.com/r/sololeveling/comments/1asa9h5/solo_leveling_arise_whats_your_thoughts_on_the/).
-
-Citations:
-
-\[1\] [https://www.creepykingdom.com/post/solo-leveling-season-1-review](https://www.creepykingdom.com/post/solo-leveling-season-1-review)
-
-\[2\] [https://www.dexerto.com/gaming/solo-leveling-arise-2624724/](https://www.dexerto.com/gaming/solo-leveling-arise-2624724/)
-
-\[3\] [https://www.gamesradar.com/solo-leveling-season-2-trailer-announcement/](https://www.gamesradar.com/solo-leveling-season-2-trailer-announcement/)
-
-\[4\] [https://www.cbr.com/solo-leveling-episode-1-review/](https://www.cbr.com/solo-leveling-episode-1-review/)
-
-\[5\] [https://www.reddit.com/r/sololeveling/comments/1asa9h5/solo\_leveling\_arise\_whats\_your\_thoughts\_on\_the/](https://www.reddit.com/r/sololeveling/comments/1asa9h5/solo_leveling_arise_whats_your_thoughts_on_the/)
