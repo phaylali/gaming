@@ -34,7 +34,7 @@
     "astro-social-share": "^1.3.2",
     "corepack": "^0.28.0",
     "country-flag-icons": "^1.5.11",
-    "deepmerge-ts": "^5.1.0",
+    "deepmerge-ts": "^6.0.3",
     "dlx": "^0.2.1",
     "markdown-it": "^14.1.0",
     "prettier": "^3.2.5",
@@ -46,7 +46,7 @@
     "sanitize-html": "^2.13.0",
     "sharp": "^0.33.3",
     "tailwindcss": "^3.4.3",
-    "unplugin-icons": "^0.18.5",
+    "unplugin-icons": "^0.19.0",
     "vips": "^1.0.0",
     "vite": "^5.2.9"
   },
