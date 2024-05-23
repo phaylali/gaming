@@ -1,5 +1,7 @@
 ---
 import { PS } from "country-flag-icons/react/3x2";
+import ThemeIcon from "../ThemeIcon.astro";
+
 
 const links = [
   {
@@ -28,6 +30,8 @@ const links = [
     href: '/contact',
   },
 ];
+
+
 ---
 
 <header
@@ -58,10 +62,8 @@ const links = [
     <!-- Actions -->
     <div class="-mr-2 flex items-center space-x-2 sm:space-x-3">
 
-      <a
-        href="https://twitter.com/search?q=%23GazaGenocide"
-        class="focus-visible:outline-primary-950 dark:group-focus-visible:outline-primary-200 rounded-md focus-visible:outline focus-visible:outline-2"
-      >
+      <a href="https://twitter.com/search?q=%23GazaGenocide"
+        class="focus-visible:outline-primary-950 dark:group-focus-visible:outline-primary-200 rounded-md focus-visible:outline focus-visible:outline-2" >
       <button
       type="button"
       class="text-primary-950 dark:text-primary-200 hover:bg-primary-500/10 dark:hover:bg-primary-400/10 ring-primary-950 inline-flex h-14 w-14 items-center justify-center rounded-full transition focus:outline-none focus-visible:ring-2"
@@ -73,7 +75,7 @@ const links = [
       
       </button>
     </a>
-
+    <ThemeIcon />
       <!-- Toggle theme mode -->
       <button
         type="button"
@@ -109,6 +111,7 @@ const links = [
           ></path>
         </svg>
       </button>
+
 
       <!-- Toggle menu -->
       <button

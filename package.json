@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@alpinejs/collapse": "^3.13.8",
+    "@astrojs/db": "^0.10.7",
     "@astrojs/react": "^3.3.0",
     "@astrojs/rss": "^4.0.5",
     "@astrojs/sitemap": "^3.1.3",
