@@ -32,7 +32,7 @@
     "astro-compress": "^2.2.22",
     "astro-icon": "^1.1.0",
     "astro-social-share": "^2.0.2",
-    "corepack": "^0.29.2",
+    "corepack": "^0.30.0",
     "country-flag-icons": "^1.5.11",
     "deepmerge-ts": "^7.0.2",
     "dlx": "^0.2.1",
