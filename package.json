@@ -28,7 +28,7 @@
     "@types/react-dom": "^18.2.25",
     "@vercel/speed-insights": "^1.0.10",
     "alpinejs": "^3.13.8",
-    "astro": "^4.6.2",
+    "astro": "^5.1.2",
     "astro-compress": "^2.2.22",
     "astro-icon": "^1.1.0",
     "astro-social-share": "^2.0.2",
