@@ -24,7 +24,7 @@
     "@tailwindcss/typography": "^0.5.16",
     "@tinacms/datalayer": "^1.3.10",
     "@types/alpinejs": "^3.13.11",
-    "@types/react": "^18.3.18",
+    "@types/react": "^19.0.7",
     "@types/react-dom": "^18.3.5",
     "@vercel/speed-insights": "^1.1.0",
     "alpinejs": "^3.14.8",
